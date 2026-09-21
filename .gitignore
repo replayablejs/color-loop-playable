@@ -1,0 +1,19 @@
+node_modules/
+dist/
+exports/
+src/assets/
+.pnpm-store/
+.DS_Store
+
+# Locally packed Replayable packages used before publication.
+.replayable-local/
+
+# Generated config and tool output
+/resolved-config.json
+coverage/
+.turbo/
+*.tsbuildinfo
+pnpm-debug.log*
+
+# Generated preview and download catalog
+/.site/

@@ -1,0 +1,72 @@
+{
+  "name": "color-loop",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "imports": {
+    "#types/*": "./src/types/*.ts",
+    "#registries": "./src/assets/registries/index.ts"
+  },
+  "scripts": {
+    "dev": "replayable dev",
+    "build": "replayable build",
+    "export": "replayable export",
+    "check": "pnpm format:check && pnpm lint && pnpm typecheck",
+    "format:check": "oxfmt --check .",
+    "format": "oxfmt .",
+    "lint": "oxlint .",
+    "lint:fix": "oxlint --fix .",
+    "typecheck": "tsc --noEmit",
+    "replayable:local": "node scripts/replayable-local.mts",
+    "prepare": "husky",
+    "preview": "python3 -m http.server 4174 --bind 127.0.0.1 --directory exports",
+    "catalog": "node scripts/build-catalog.mts",
+    "catalog:preview": "python3 -m http.server 4176 --bind 127.0.0.1 --directory .site"
+  },
+  "dependencies": {
+    "@replayablejs/pixi": "0.1.0-alpha.6",
+    "@replayablejs/runtime": "0.1.0-alpha.6",
+    "@replayablejs/tween": "0.1.0-alpha.6",
+    "pixi.js": "8.21.0"
+  },
+  "devDependencies": {
+    "@replayablejs/assets": "0.1.0-alpha.6",
+    "@replayablejs/cli": "0.1.0-alpha.6",
+    "@replayablejs/config": "0.1.0-alpha.6",
+    "@replayablejs/devtools": "0.1.0-alpha.6",
+    "@replayablejs/export": "0.1.0-alpha.6",
+    "@types/node": "^24.13.4",
+    "hast-util-to-html": "^9.0.5",
+    "hastscript": "^9.0.1",
+    "husky": "9.1.7",
+    "lint-staged": "17.5.1",
+    "oxfmt": "0.63.0",
+    "oxlint": "1.78.0",
+    "oxlint-tsgolint": "7.0.2001",
+    "typescript": "7.0.2"
+  },
+  "lint-staged": {
+    "*.{js,jsx,mjs,cjs,ts,tsx,mts,cts}": [
+      "oxfmt --no-error-on-unmatched-pattern",
+      "oxlint --no-error-on-unmatched-pattern"
+    ],
+    "*.{json,jsonc,json5,yml,yaml,md,mdx,css,scss,less,html,vue,graphql,gql}": "oxfmt --no-error-on-unmatched-pattern"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "packageManager": "pnpm@10.32.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "@ffmpeg-installer/darwin-arm64",
+      "@ffmpeg-installer/darwin-x64",
+      "@ffmpeg-installer/linux-arm",
+      "@ffmpeg-installer/linux-arm64",
+      "@ffmpeg-installer/linux-ia32",
+      "@ffmpeg-installer/linux-x64",
+      "@ffmpeg-installer/win32-ia32",
+      "@ffmpeg-installer/win32-x64"
+    ]
+  }
+}
