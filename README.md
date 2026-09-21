@@ -1,5 +1,10 @@
 # Color Loop Playable
 
+[![CI](https://img.shields.io/github/actions/workflow/status/replayablejs/color-loop-playable/ci.yml?branch=main&style=flat-square&label=CI&logo=github)](https://github.com/replayablejs/color-loop-playable/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/Built_with-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Built with Codex](https://img.shields.io/badge/Built_with-Codex-18181b?style=flat-square)](https://openai.com/codex/)
+
 **One codebase. Five gameplay versions. Seven ad networks.**
 
 A color-matching puzzle built with [Replayable](https://github.com/replayablejs/replayable),
