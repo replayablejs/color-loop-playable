@@ -9,33 +9,33 @@ importers:
   .:
     dependencies:
       '@replayablejs/pixi':
-        specifier: 0.1.0-alpha.12
-        version: 0.1.0-alpha.12(@replayablejs/runtime@0.1.0-alpha.12)(pixi.js@8.21.0)
+        specifier: 0.1.0-alpha.13
+        version: 0.1.0-alpha.13(@replayablejs/runtime@0.1.0-alpha.13)(pixi.js@8.21.0)
       '@replayablejs/runtime':
-        specifier: 0.1.0-alpha.12
-        version: 0.1.0-alpha.12
+        specifier: 0.1.0-alpha.13
+        version: 0.1.0-alpha.13
       '@replayablejs/tween':
-        specifier: 0.1.0-alpha.12
-        version: 0.1.0-alpha.12(@replayablejs/runtime@0.1.0-alpha.12)
+        specifier: 0.1.0-alpha.13
+        version: 0.1.0-alpha.13(@replayablejs/runtime@0.1.0-alpha.13)
       pixi.js:
         specifier: 8.21.0
         version: 8.21.0
     devDependencies:
       '@replayablejs/assets':
-        specifier: 0.1.0-alpha.12
-        version: 0.1.0-alpha.12(@types/node@24.13.5)
+        specifier: 0.1.0-alpha.13
+        version: 0.1.0-alpha.13(@types/node@24.13.5)
       '@replayablejs/cli':
-        specifier: 0.1.0-alpha.12
-        version: 0.1.0-alpha.12(@types/node@24.13.5)(esbuild@0.28.2)(terser@5.51.2)(yaml@2.9.1)
+        specifier: 0.1.0-alpha.13
+        version: 0.1.0-alpha.13(@types/node@24.13.5)(esbuild@0.28.2)(terser@5.51.2)(yaml@2.9.1)
       '@replayablejs/config':
-        specifier: 0.1.0-alpha.12
-        version: 0.1.0-alpha.12(@types/node@24.13.5)
+        specifier: 0.1.0-alpha.13
+        version: 0.1.0-alpha.13(@types/node@24.13.5)
       '@replayablejs/devtools':
-        specifier: 0.1.0-alpha.12
-        version: 0.1.0-alpha.12(@replayablejs/runtime@0.1.0-alpha.12)
+        specifier: 0.1.0-alpha.13
+        version: 0.1.0-alpha.13(@replayablejs/runtime@0.1.0-alpha.13)
       '@replayablejs/export':
-        specifier: 0.1.0-alpha.12
-        version: 0.1.0-alpha.12(@types/node@24.13.5)
+        specifier: 0.1.0-alpha.13
+        version: 0.1.0-alpha.13(@types/node@24.13.5)
       '@types/node':
         specifier: ^24.13.4
         version: 24.13.5
@@ -882,59 +882,59 @@ packages:
   '@poppinss/dumper@0.7.0':
     resolution: {integrity: sha512-0UTYalzk2t6S4rA2uHOz5bSSW2CHdv4vggJI6Alg90yvl0UgXs6XSXpH96OH+bRkX4J/06djv29pqXJ0lq5Kag==}
 
-  '@replayablejs/assets@0.1.0-alpha.12':
-    resolution: {integrity: sha512-8eKK/p9KLdZmNcd6x6Nc3lRXT0qlYd65sQ9mQDoSY9QxBGEWW58lA3ySiVjWmwhbI3gCq5L2VS69Ccuw4dshGA==}
+  '@replayablejs/assets@0.1.0-alpha.13':
+    resolution: {integrity: sha512-6Wb+3BCkabKH1mmwiIO9epD5kT/UUzqFPufR3FHviUVhBOSiypcN9Urhy1ssTAzWdDChWwAln8TQkV7HQNHeWw==}
     engines: {node: '>=24.0.0'}
 
-  '@replayablejs/build@0.1.0-alpha.12':
-    resolution: {integrity: sha512-bY2qxjSeZuDp32OR9Ifhri1nbWIBddJsgfS6CCqF8He5DWSLMrsmLb4tgrGU0zfqngVuwZJTwJs250n8s1jFfg==}
+  '@replayablejs/build@0.1.0-alpha.13':
+    resolution: {integrity: sha512-dtKNUjrodmn051bILMGhWMcslZYnXgAQHVY34QnNYoMRGizpSISkgeIDl95PZuaDEh0ohYv/ivaRmNKK3YUEXw==}
     engines: {node: '>=24.0.0'}
 
-  '@replayablejs/canvas@0.1.0-alpha.12':
-    resolution: {integrity: sha512-ym1s0H+FWoGO6cKNdZlKsM7++KZPWo1UKef71c3q9JqvkyemvjEM4tJk/Pi+LKhuNiLBq9WJGA7PKG/JctpX9Q==}
+  '@replayablejs/canvas@0.1.0-alpha.13':
+    resolution: {integrity: sha512-axQokLBZCvZFVzecVY4Uw8tDoC9ZwXlmulfydu7qBKN2xK4K+XeyycX4LJqqX8lxWhL0bXJObf0gdRqHuJ/CCg==}
     engines: {node: '>=24.0.0'}
     peerDependencies:
-      '@replayablejs/runtime': 0.1.0-alpha.12
+      '@replayablejs/runtime': 0.1.0-alpha.13
 
-  '@replayablejs/cli@0.1.0-alpha.12':
-    resolution: {integrity: sha512-41X5DbS4ngOwdeYu3plQZnHAJSqGAJUdTqKqzbJt+sgFVEhz4yn+GNQOvYk1Tk1kNOHW0b366zemw0xxcxCcfA==}
+  '@replayablejs/cli@0.1.0-alpha.13':
+    resolution: {integrity: sha512-hsmrIACmD0H/y4OG4EIJ2T4JDYlQGXgzEgWSQTk5vOaF7sgkpUp6H5oQQh/iZ82Lh3/UA4KPYpRE2pC+i1qeOg==}
     engines: {node: '>=24.0.0'}
     hasBin: true
 
-  '@replayablejs/config@0.1.0-alpha.12':
-    resolution: {integrity: sha512-rTD/A2+5QTMox6OLwbE18FhB9MkQ+2yFh8j6hDOyj3uN/6Ac91JbAaYPeKzy5toI7PT1+lIKtXZcsY/fCLOGFg==}
+  '@replayablejs/config@0.1.0-alpha.13':
+    resolution: {integrity: sha512-cGoibpZb3pvtzVWAqTYoofK9O/vnXYvCrHi9f1rNDhhlf3IKEExX3EJWZdlXQQ6/1qLvCGHpkbWptC5m94sDfw==}
     engines: {node: '>=24.0.0'}
 
-  '@replayablejs/devtools@0.1.0-alpha.12':
-    resolution: {integrity: sha512-WRpvp83BvawfeBSC9R5VPsWDIY6faWiUfKj8+WkttWlofx3J3K/SzI+dcmX+AgbhhoR/TFnKgYR+paj1RsnTDQ==}
+  '@replayablejs/devtools@0.1.0-alpha.13':
+    resolution: {integrity: sha512-TkCOUhwCWxBa+5a3Yg2gR+KgajWBAdT6kSxhGGNzDwvnY1L9JaPg3MlBIQJ7/ZJ1xW3qigy8IE/FjUxXxDcX3A==}
     engines: {node: '>=24.0.0'}
     peerDependencies:
-      '@replayablejs/runtime': 0.1.0-alpha.12
+      '@replayablejs/runtime': 0.1.0-alpha.13
 
-  '@replayablejs/export@0.1.0-alpha.12':
-    resolution: {integrity: sha512-q+gvWo4asGVyD+lnsYUYmNG/nzandESNlNTNejZPAMMamWmHUmwRA6ynWXdhO8NombM489H67Qdzb8cLPUjpPQ==}
+  '@replayablejs/export@0.1.0-alpha.13':
+    resolution: {integrity: sha512-hnMCXOobMOLf611mBDrI8tMvt4X3jEhFtMJGKwQRsnREVTQuZ3iWJKowrLIULbrNvZPH8YpLh7FLiy01EM04mw==}
     engines: {node: '>=24.0.0'}
 
-  '@replayablejs/pixi@0.1.0-alpha.12':
-    resolution: {integrity: sha512-5KK8VgKEi+mUtuqq1bjLcEJCm1zDOM24pfBhjWexzJEn7J/WU3MXwkql+uS1wDA+eB4IVG1QhrDxvvLoa59R5A==}
+  '@replayablejs/pixi@0.1.0-alpha.13':
+    resolution: {integrity: sha512-PTSxwzgL8CsMyrRw+vrS3rnNSrd/iOXUylArkGfnLST+i8AITAD3o/lxAihbEETv3xYh1hy5fFdRwTRxvlhlug==}
     engines: {node: '>=24.0.0'}
     peerDependencies:
       '@esotericsoftware/spine-pixi-v8': ~4.3.13
-      '@replayablejs/runtime': 0.1.0-alpha.12
+      '@replayablejs/runtime': 0.1.0-alpha.13
       pixi.js: ^8.20.1
     peerDependenciesMeta:
       '@esotericsoftware/spine-pixi-v8':
         optional: true
 
-  '@replayablejs/runtime@0.1.0-alpha.12':
-    resolution: {integrity: sha512-AOX5Cnz4dl8T7NoPWfmzbxeukPT9nTJr2h6P3/mxvmin0xS1PNbhCy6pzqGvgEy+QB37xRV9o/vIsK2mtXia3g==}
+  '@replayablejs/runtime@0.1.0-alpha.13':
+    resolution: {integrity: sha512-L7ld00zERrC8JXrtip2tiqiRa3D0ihtGT4dlKEvgKEnSTbiWbdUzGJNwO29mtkHUn05nZcMs5Udl2H7B5UmfCw==}
     engines: {node: '>=24.0.0'}
 
-  '@replayablejs/tween@0.1.0-alpha.12':
-    resolution: {integrity: sha512-YJQJzhx2txePUVeSUBhi9mWgB+UxOtFpUnTm/7npIrDia8+XvuFAyK26/Ltup+pis5Sc+FdjEr1y2mrjN8d97w==}
+  '@replayablejs/tween@0.1.0-alpha.13':
+    resolution: {integrity: sha512-KV4o43lCd5Qzyqd/9BwQb+73Ju8jnzoWwqKiV5N4rVhUI3zQ60UcKGEOBJW5RdhvF1JaKXlLZCy+/zhzIoyTYw==}
     engines: {node: '>=24.0.0'}
     peerDependencies:
-      '@replayablejs/runtime': 0.1.0-alpha.12
+      '@replayablejs/runtime': 0.1.0-alpha.13
 
   '@rolldown/binding-android-arm-eabi@1.2.8':
     resolution: {integrity: sha512-tN5aztYkKCte4i5SIrrz5yK/HMjEuCqCSCJa418jOV8tZ1cBY3YF2otxB1ktPxzsLA1BeTqwapK0bfjxNvHJVw==}
@@ -2872,14 +2872,14 @@ snapshots:
       '@sindresorhus/is': 7.2.0
       supports-color: 10.2.2
 
-  '@replayablejs/assets@0.1.0-alpha.12(@types/node@24.13.5)':
+  '@replayablejs/assets@0.1.0-alpha.13(@types/node@24.13.5)':
     dependencies:
       '@esotericsoftware/spine-core': 4.3.13
       '@ffmpeg-installer/ffmpeg': 1.1.0
       '@gltf-transform/core': 4.5.0
       '@gltf-transform/extensions': 4.5.0
       '@gltf-transform/functions': 4.5.0(@types/node@24.13.5)
-      '@replayablejs/runtime': 0.1.0-alpha.12
+      '@replayablejs/runtime': 0.1.0-alpha.13
       draco3dgltf: 1.5.7
       free-tex-packer-core: 0.3.9(@types/node@24.13.5)
       jsonc-parser: 3.3.1
@@ -2895,12 +2895,12 @@ snapshots:
       - react-dom
       - supports-color
 
-  '@replayablejs/build@0.1.0-alpha.12(@types/node@24.13.5)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1)':
+  '@replayablejs/build@0.1.0-alpha.13(@types/node@24.13.5)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1)':
     dependencies:
-      '@replayablejs/assets': 0.1.0-alpha.12(@types/node@24.13.5)
-      '@replayablejs/config': 0.1.0-alpha.12(@types/node@24.13.5)
-      '@replayablejs/devtools': 0.1.0-alpha.12(@replayablejs/runtime@0.1.0-alpha.12)
-      '@replayablejs/runtime': 0.1.0-alpha.12
+      '@replayablejs/assets': 0.1.0-alpha.13(@types/node@24.13.5)
+      '@replayablejs/config': 0.1.0-alpha.13(@types/node@24.13.5)
+      '@replayablejs/devtools': 0.1.0-alpha.13(@replayablejs/runtime@0.1.0-alpha.13)
+      '@replayablejs/runtime': 0.1.0-alpha.13
       hast-util-to-html: 9.0.5
       hastscript: 9.0.1
       vite: 8.2.1(@types/node@24.13.5)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1)
@@ -2921,17 +2921,17 @@ snapshots:
       - tsx
       - yaml
 
-  '@replayablejs/canvas@0.1.0-alpha.12(@replayablejs/runtime@0.1.0-alpha.12)':
+  '@replayablejs/canvas@0.1.0-alpha.13(@replayablejs/runtime@0.1.0-alpha.13)':
     dependencies:
-      '@replayablejs/runtime': 0.1.0-alpha.12
+      '@replayablejs/runtime': 0.1.0-alpha.13
 
-  '@replayablejs/cli@0.1.0-alpha.12(@types/node@24.13.5)(esbuild@0.28.2)(terser@5.51.2)(yaml@2.9.1)':
+  '@replayablejs/cli@0.1.0-alpha.13(@types/node@24.13.5)(esbuild@0.28.2)(terser@5.51.2)(yaml@2.9.1)':
     dependencies:
       '@poppinss/dumper': 0.7.0
-      '@replayablejs/assets': 0.1.0-alpha.12(@types/node@24.13.5)
-      '@replayablejs/build': 0.1.0-alpha.12(@types/node@24.13.5)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1)
-      '@replayablejs/config': 0.1.0-alpha.12(@types/node@24.13.5)
-      '@replayablejs/export': 0.1.0-alpha.12(@types/node@24.13.5)
+      '@replayablejs/assets': 0.1.0-alpha.13(@types/node@24.13.5)
+      '@replayablejs/build': 0.1.0-alpha.13(@types/node@24.13.5)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1)
+      '@replayablejs/config': 0.1.0-alpha.13(@types/node@24.13.5)
+      '@replayablejs/export': 0.1.0-alpha.13(@types/node@24.13.5)
       commander: 15.0.0
       hast-util-to-html: 9.0.5
       hastscript: 9.0.1
@@ -2953,9 +2953,9 @@ snapshots:
       - tsx
       - yaml
 
-  '@replayablejs/config@0.1.0-alpha.12(@types/node@24.13.5)':
+  '@replayablejs/config@0.1.0-alpha.13(@types/node@24.13.5)':
     dependencies:
-      '@replayablejs/assets': 0.1.0-alpha.12(@types/node@24.13.5)
+      '@replayablejs/assets': 0.1.0-alpha.13(@types/node@24.13.5)
       zod: 4.4.3
     transitivePeerDependencies:
       - '@types/node'
@@ -2963,15 +2963,15 @@ snapshots:
       - react-dom
       - supports-color
 
-  '@replayablejs/devtools@0.1.0-alpha.12(@replayablejs/runtime@0.1.0-alpha.12)':
+  '@replayablejs/devtools@0.1.0-alpha.13(@replayablejs/runtime@0.1.0-alpha.13)':
     dependencies:
-      '@replayablejs/runtime': 0.1.0-alpha.12
+      '@replayablejs/runtime': 0.1.0-alpha.13
       d3-scale: 4.0.2
       d3-shape: 3.2.0
 
-  '@replayablejs/export@0.1.0-alpha.12(@types/node@24.13.5)':
+  '@replayablejs/export@0.1.0-alpha.13(@types/node@24.13.5)':
     dependencies:
-      '@replayablejs/config': 0.1.0-alpha.12(@types/node@24.13.5)
+      '@replayablejs/config': 0.1.0-alpha.13(@types/node@24.13.5)
       acorn: 8.18.0
       acorn-walk: 8.3.4
       cheerio: 1.2.0
@@ -2985,13 +2985,13 @@ snapshots:
       - react-dom
       - supports-color
 
-  '@replayablejs/pixi@0.1.0-alpha.12(@replayablejs/runtime@0.1.0-alpha.12)(pixi.js@8.21.0)':
+  '@replayablejs/pixi@0.1.0-alpha.13(@replayablejs/runtime@0.1.0-alpha.13)(pixi.js@8.21.0)':
     dependencies:
-      '@replayablejs/canvas': 0.1.0-alpha.12(@replayablejs/runtime@0.1.0-alpha.12)
-      '@replayablejs/runtime': 0.1.0-alpha.12
+      '@replayablejs/canvas': 0.1.0-alpha.13(@replayablejs/runtime@0.1.0-alpha.13)
+      '@replayablejs/runtime': 0.1.0-alpha.13
       pixi.js: 8.21.0
 
-  '@replayablejs/runtime@0.1.0-alpha.12':
+  '@replayablejs/runtime@0.1.0-alpha.13':
     dependencies:
       '@pmndrs/detect-gpu': 6.0.20
       howler: 2.2.4
@@ -3000,9 +3000,9 @@ snapshots:
       - react
       - react-dom
 
-  '@replayablejs/tween@0.1.0-alpha.12(@replayablejs/runtime@0.1.0-alpha.12)':
+  '@replayablejs/tween@0.1.0-alpha.13(@replayablejs/runtime@0.1.0-alpha.13)':
     dependencies:
-      '@replayablejs/runtime': 0.1.0-alpha.12
+      '@replayablejs/runtime': 0.1.0-alpha.13
       motion: 13.3.0
     transitivePeerDependencies:
       - react

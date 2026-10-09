@@ -24,17 +24,17 @@
     "catalog:preview": "python3 -m http.server 4176 --bind 127.0.0.1 --directory .site"
   },
   "dependencies": {
-    "@replayablejs/pixi": "0.1.0-alpha.12",
-    "@replayablejs/runtime": "0.1.0-alpha.12",
-    "@replayablejs/tween": "0.1.0-alpha.12",
+    "@replayablejs/pixi": "0.1.0-alpha.13",
+    "@replayablejs/runtime": "0.1.0-alpha.13",
+    "@replayablejs/tween": "0.1.0-alpha.13",
     "pixi.js": "8.21.0"
   },
   "devDependencies": {
-    "@replayablejs/assets": "0.1.0-alpha.12",
-    "@replayablejs/cli": "0.1.0-alpha.12",
-    "@replayablejs/config": "0.1.0-alpha.12",
-    "@replayablejs/devtools": "0.1.0-alpha.12",
-    "@replayablejs/export": "0.1.0-alpha.12",
+    "@replayablejs/assets": "0.1.0-alpha.13",
+    "@replayablejs/cli": "0.1.0-alpha.13",
+    "@replayablejs/config": "0.1.0-alpha.13",
+    "@replayablejs/devtools": "0.1.0-alpha.13",
+    "@replayablejs/export": "0.1.0-alpha.13",
     "@types/node": "^24.13.4",
     "hast-util-to-html": "^9.0.5",
     "hastscript": "^9.0.1",
